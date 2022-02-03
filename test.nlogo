@@ -216,8 +216,8 @@ SWITCH
 84
 176
 117
-bumpy?
-bumpy?
+Bumpy?
+Bumpy?
 0
 1
 -1000
@@ -242,8 +242,8 @@ SWITCH
 50
 176
 83
-hill?
-hill?
+Hill?
+Hill?
 1
 1
 -1000
