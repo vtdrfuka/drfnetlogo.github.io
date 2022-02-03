@@ -14,8 +14,8 @@ to setup
   clear-all
   set show-water? true
   ask patches [
-    ifelse bumpy?
-       [ ifelse hill?
+    ifelse Bumpy?
+       [ ifelse Hill?
            [ set elevation -100 * (distancexy 0 0 / max-pxcor) + 100 + random 100 ]
            [ set elevation random 125 ] ]
        [ set elevation 100 ]
@@ -23,7 +23,7 @@ to setup
     set drain? false
   ]
   ;; the DIFFUSE command is useful for smoothing out the terrain
-  if bumpy? [
+  if Bumpy? [
     repeat terrain-smoothness [ diffuse elevation 0.5 ]
   ]
   ;; make the drain around the edge
